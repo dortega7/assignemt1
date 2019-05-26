@@ -40,6 +40,7 @@ public class HangMan {
                 System.out.print("\t " + unguessedWord[i]);
             }
             System.out.println("\n");
+            System.out.println("");
            
             System.out.println("Type your guess: ");
             String currentGuess = input.next().toUpperCase().substring(0, 1);
